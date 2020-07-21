@@ -1,6 +1,7 @@
-html, body {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+html,body{
+  height: 100%;
+  display: flex;
+  flex: 1;
 }
 
 .App {
@@ -8,12 +9,17 @@ html, body {
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: whitesmoke;
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
 }
 
-.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
-  border-color: #000 !important;
+.searchbar {
+  display: flex;
+  align-items: center;
 }
+
+/*.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {*/
+/*  border-color: #000 !important;*/
+/*}*/
 
